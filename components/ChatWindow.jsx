@@ -6,8 +6,10 @@ import Icon from "@/components/Icon.jsx";
 
 /**
  * The main chat window component that displays the conversation with 3D effects.
+ * edits
  * @param {{ chatHistory: Array<object>, isLoading: boolean }} props
  */
+
 export default function ChatWindow({ chatHistory = [], isLoading = false }) {
   const chatContainerRef = useRef(null);
   const [isUserAtBottom, setIsUserAtBottom] = useState(true);
